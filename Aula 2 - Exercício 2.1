@@ -1,0 +1,39 @@
+Exercício 2.1
+
+Para cada um dos termos de performance, pesquise na web exemplos que citam medições deste item.
+Em cada caso, copie o trecho de texto e a URL da página.
+
+
+1) Tempo de resposta: quantidade de tempo para processar uma requisição.
+   -> Teste de Tempo de Resposta(Response Time Testing): Representa a percepção do usuário de quão rápido o sistema reage para uma “Request” ou “Query”. A reação pode ser lenta ou rápida com base no tipo de atividade e o tempo necessário para processar a requisição. A aceitação de um determinado tempo de resposta é um fator relacionado à psicologia humana. As expectativas variam de usuário para usuário! Um usuário que trabalhada com 5 segundos de tempo de reposta, iria ficar frustrado com 10 segundos tempo de resposta, por exemplo. Então, o tempo de resposta de uma aplicação para outra difere, assim como de um usuário para outro. Mas a indústria apresenta as seguintes normas:
+- Para um sistema multimídia interativo, o tempo de resposta deveria ser 0.1 segundo ou menos, 90% do tempo;
+- Para sistemas online onde tarefas são inter-relacionadas, o tempo de resposta deveria ser menos que 0.5 segundos, 90% do tempo;
+- Para sistemas online onde usuários fazem múltiplas tarefas simultaneamente, o tempo de resposta deveria ser 1 segundo ou menos, 90% do tempo.
+A consistência do tempo de resposta é medida em vários ciclos de teste, se a performance é calculada especificamente em termos de tempo de resposta.
+  link: http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx
+   
+2) Responsividade: velocidade com que uma requisição é reconhecida pelo sistema.
+   -> Quando bem projetado, o design responsivo permite que os usuários visualizem conteúdo em qualquer dispositivo, em qualquer contexto, da melhor forma possível. Para as empresas, um único site acaba gerando menor esforço de manutenção e possibilidade de produzir conteúdo pensado desde o início para ser consumido em diferentes situações.
+Se você tenta abrir um site no celular e a página inicial pesa 15MB e tem 400 requisições HTTP, a culpa não é necessariamente da técnica (do Design Responsivo), mas da forma como ela foi implementada. E infelizmente o peso das páginas tem impacto direto na experiência do usuário.
+Como exemplo, osite da Virgin:
+Load time: 5.31 seconds
+Page size: 1.5MB
+Requests: 91
+Grade: 66/100
+  link: https://medium.com/m/signin?redirect=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F669cab19549e%3Ftoken%3DzL0URtZK09W47RPs%26source%3Dpost_share_widget-----669cab19549e---------------------clap_sidebar%26redirectUrl%3Dhttps%253A%252F%252Fmedium.com%252Fux-user-experience-design-em-portugues&referrer=https%3A%2F%2Fbrasil.uxdesign.cc%2Fquando-o-design-responsivo-impacta-a-performance-e-a-ux-669cab19549e&originalAction=multivote
+
+3) Latência: tempo mínimo para fornecer qualquer tipo de resposta.
+   ->  Teste ping do "Utilitário de Rede" permite que você digite o endereço do site que deseja testar pelo número de vezes que quiser. A latência normal varia de acordo com o tipo da conexão: 5 - 40 ms para modem a cabo; 10 - 70 ms para DSL; 100 - 220 ms para dial-up; 200 - 600 dados móveis[7]. A distância do servidor remoto também é adicionada à latência (cerca de 1 ms extra de latência para cada 100 km de distância)[8].
+   link: https://pt.wikihow.com/Testar-a-Lat%C3%AAncia-(Lag)-da-Rede-ou-da-Internet-Usando-o-Windows
+
+4) Throughput: quanto pode ser feito em um determinado período.
+   ->Teste de Throughput(Throughput Testing): Teste de Throughput mede o throughput de um servidor em um sistema baseado em Web. Ele é uma medida do número de bytes enviados por unidade de tempo. Throughput de vários servidores em a arquitetura de sistema pode ser medido em kilobits por segundo, consultas em banco de dados por minuto, transações por hora, ou qualquer outra característica vinculada ao tempo.
+   link: http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx
+
+5) Carga: stress aplicado a um sistema.
+   -> O tipo mais básico de teste de carga é usado para determinar o comportamento da aplicação Web através de condições normais e altos picos de carga. À medida que se começa o teste de carga, é recomendável se começar com um pequeno número de usuários virtuais(Virtual Users) e então incrementar gradualmente a carga do normal até o pico.
+   link: http://www.linhadecodigo.com.br/artigo/3259/testes-de-performance-testes-de-carga-stress-e-virtualizacao-parte-3.aspx
+
+6) Sensibilidade à carga / degradação: como o tempo de resposta varia de acordo com a carga.
+   -> A sensibilidade de carga é uma medida de como o tempo de resposta varia com a carga. Digamos que o sistema A tenha um tempo de resposta de 0,5 segundo para um número de usuários entre 10 e 20, e o sistema B tenha um tempo de resposta de 0,2 segundo para 10 usuários que aumenta para 2 segundos com 20 usuários. Neste caso o sistema A tem uma sensibilidade de carga menor quer o sistema B. Poderíamos também usar o termo degradação para dizer que o sistema B degrada mais que o sistema A.
+   link: https://books.google.com.br/books?id=8uSN0Qwz2kQC&pg=PA29&lpg=PA29&dq=Sensibilidade+%C3%A0+carga+/+degrada%C3%A7%C3%A3o:+como+o+tempo+de+resposta+varia+de+acordo+com+a+carga.&source=bl&ots=gqfNSuxceA&sig=R5ESTXYQfFHosCH8TjiT_w8RS_Y&hl=pt-BR&sa=X&ved=0ahUKEwjQzbjWzPHYAhUlmuAKHZurCVkQ6AEIJzAA#v=onepage&q=Sensibilidade%20%C3%A0%20carga%20%2F%20degrada%C3%A7%C3%A3o%3A%20como%20o%20tempo%20de%20resposta%20varia%20de%20acordo%20com%20a%20carga.&f=false
